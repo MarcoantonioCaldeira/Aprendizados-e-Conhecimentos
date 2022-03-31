@@ -1,13 +1,12 @@
-export function NewRoom(){
-  return(
-    import illustrationImg from '../assets/images/illustration.svg' 
+  import { Link } from 'react-router-dom'     
+    
+    import illustrationImg from '../assets/images/illustration.svg'
     import LogoImg from '../assets/images/logo.svg';
     import GoogleIconImg from '../assets/images/google-icon.svg';
+    
+    import {Button} from '../components/Button';   
 
     import '../styles/auth.scss';
-    import {Button} from '../components/Button.tsx';
-
-
 
     export function NewRoom() {
       return(
@@ -21,22 +20,20 @@ export function NewRoom(){
             <div className="main-content">
               <img src={LogoImg} alt="Letmeask"/>
               <h2>Criar uma nova sala</h2>
-              <div className="separator">Ou entre em uma sala</div>
               <form>
                 <input 
-                type="text" placeholder="Digite o código da sala"
+                type="text" 
+                placeholder="Nome da sala"
                 />
                 <Button type="submit">
                   Criar sala
                 </Button>
               </form>
               <p>
-                Quer entrar em uma sala existente?<a href="#">clique aqui</a>
+                Quer entrar em uma sala existente?<Link to="/">clique aqui</Link>
               </p>
             </div>
           </main>
         </div>
       )
-    }
-  ); 
-}
+   }

@@ -1,11 +1,11 @@
-export function NewRoom(){
-  return(
-    import illustrationImg from '../assets/images/illustration.svg';
-    import LogoImg from '../assets/images/logo.svg';
-    import googleIconImg from '../assets/images/google-icon.svg';
-
-    import {Button} from '../components/Button.tsx';
+  import { Link } from 'react-router-dom'     
     
+    import illustrationImg from '../assets/images/illustration.svg'
+    import LogoImg from '../assets/images/logo.svg';
+    import GoogleIconImg from '../assets/images/google-icon.svg';
+    
+    import {Button} from '../components/Button';   
+
     import '../styles/auth.scss';
 
     export function NewRoom() {
@@ -22,19 +22,18 @@ export function NewRoom(){
               <h2>Criar uma nova sala</h2>
               <form>
                 <input 
-                type="text" placeholder="Nome da sala"
+                type="text" 
+                placeholder="Nome da sala"
                 />
                 <Button type="submit">
                   Criar sala
                 </Button>
               </form>
               <p>
-                Quer entrar em uma sala existente?<a href="#">clique aqui</a>
+                Quer entrar em uma sala existente?<Link href="#">clique aqui</Link>
               </p>
             </div>
           </main>
         </div>
       )
-    }
-  ); 
-}
+   }
