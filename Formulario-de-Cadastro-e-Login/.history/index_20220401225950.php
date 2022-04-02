@@ -6,7 +6,7 @@
    <body>
      <h1>Formulario de Login e Cadastro</h1>
    <ul>
-     <a href="login.php"><li>Login</li></a>
+     <a href="longin.php"><li>Login</li></a>
      <a href="cadastro.php"><li>Cadastro</li></a>
    </ul>
      
