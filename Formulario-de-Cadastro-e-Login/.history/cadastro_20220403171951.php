@@ -2,7 +2,6 @@
 
 $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
-$email = $_POST['email'];
 $senha = MD5($_POST['senha']);
 $connect = mysql_connect('localhost','root','');
 $db = mysql_select_db('cadastro');
@@ -27,7 +26,7 @@ $logarray = $array['login'];
         die();
 
       }else{
-        $query = "INSERT INTO usuarios (nome, sobrenome, email, senha) VALUES ('$nome','$sobrenome', '$email', '$senha')";
+        $query = "INSERT INTO usuarios (nome, sobrenome,senha) VALUES ('$nome','$sobrenome','$senha')";
         $insert = mysql_query($query,$connect);
 
         if($insert){
