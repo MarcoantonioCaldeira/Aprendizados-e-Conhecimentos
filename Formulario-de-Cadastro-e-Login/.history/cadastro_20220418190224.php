@@ -4,11 +4,11 @@ $nome = $_POST['nome'];
 $sobrenome = $_POST['sobrenome'];
 $email = $_POST['email'];
 $senha = MD5($_POST['senha']);
-$connect = mysql_connect('localhost','root','');
-$db = mysql_select_db('cadastro');
+$connect = mysqli_connect('localhost','root','');
+$db = mysqli_select_db('cadastro');
 $query_select = "SELECT nome FROM usuarios WHERE nome = '$nome'";
-$select = mysql_query($query_select,$connect);
-$array = mysql_fetch_array($select);
+$select = mysqli_query($query_select,$connect);
+$array = mysqli_fetch_array($select);
 $logarray = $array['nome'];
 
 

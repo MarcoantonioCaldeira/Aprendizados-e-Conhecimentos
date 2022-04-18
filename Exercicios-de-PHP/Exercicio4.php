@@ -4,7 +4,7 @@
 <meta charset="utf-8">  
 <head> 
 <body> 
-  <h1>Relembrando a aula passada</h1>
+  <h1>Tipos de dados/h1>
 
   <?php
    function Myfunction(){

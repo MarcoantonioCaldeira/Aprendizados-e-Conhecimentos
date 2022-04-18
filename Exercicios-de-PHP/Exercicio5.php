@@ -25,5 +25,18 @@
 
   ?> 
 
+  <hr>
+  <h1>As Constantes são globais e podem ser usadas em todo o script</h1>
+
+  <?php
+      define("Marco","Funções");
+
+     function myTeste() {
+      echo Marco;
+     }
+
+     myTeste();
+  ?>
+
 </body>
 </html>

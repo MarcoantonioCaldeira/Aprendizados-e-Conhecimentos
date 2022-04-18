@@ -1,12 +1,12 @@
 <?php
 
-$nome = $_POST['nome'];
-$sobrenome = $_POST['sobrenome'];
-$email = $_POST['email'];
-$senha = MD5($_POST['senha']);
+$nome = $_GET['nome'];
+$sobrenome = $_GET['sobrenome'];
+$email = $_GET['email'];
+$senha = MD5($_GET['senha']);
 $connect = mysql_connect('localhost','root','');
 $db = mysql_select_db('cadastro');
-$query_select = "SELECT nome FROM usuarios WHERE nome = '$nome'";
+$query_select = "SELECT nome FROM usuarios WHERE login = '$nome'";
 $select = mysql_query($query_select,$connect);
 $array = mysql_fetch_array($select);
 $logarray = $array['nome'];
