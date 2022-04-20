@@ -1,21 +1,13 @@
-<?php
-$email = $_POST['email'];
-$entrar = $_POST['entrar'];
-$senha = md5($_POST['senha']);
-$connect = mysql_connect('localhost','root','');
-$db = mysql_select_db('cadastro');
-  if (isset($entrar)) {
-
-    $verifica = mysql_query("SELECT * FROM usuarios WHERE
-    email = '$email' AND senha = '$senha'") or die("erro ao selecionar");
-      if (mysql_num_rows($verifica)<=0){
-        echo"<script language='javascript' type='text/javascript'>
-        alert('Login e/ou senha incorretos');window.location
-        .href='login.html';</script>";
-        die();
-      }else{
-        setcookie("email",$email);
-        header("Location:index.php");
-      }
-  }
-?>
+<html>
+<head>
+<title> Login de Usuário </title>
+</head>
+<body>
+<form method="POST" action="login.php">
+<label>Login:</label><input type="text" name="login" id="login"><br>
+<label>Senha:</label><input type="password" name="senha" id="senha"><br>
+<input type="submit" value="entrar" id="entrar" name="entrar"><br>
+<a href="cadastro.html">Cadastre-se</a>
+</form>
+</body>
+</html>

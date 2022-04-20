@@ -24,7 +24,7 @@ if(isset($_POST['submit']))
    <body>
      <h1>Formulario de Cadastro</h1>
 
-     <form action="cadastro2.php" method="POST">
+     <form methot="POST" action="cadastro2.php">
          <label>Nome:</label><input type="text" name="nome"><br>
          <label>Sobrenome:</label><input type="text" name="sobrenome"><br>
          <label>E-mail:</label><input type="text" name="email"><br>
