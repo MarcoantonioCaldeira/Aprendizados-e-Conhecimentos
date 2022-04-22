@@ -3,8 +3,14 @@
   if(isset($_POST['submit']))
   {
 
+    //print_r("Nome: ".$_POST['nome']);
+    //print_r("Sobrenome: ".$_POST['sobrenome']);
+    // print_r("E-mail: ".$_POST['email']);
+    //print_r("Senha: ".$_POST['senha']);
+
     include_once('cadastro2.php');
 
+    $ID = $_POST['ID'];
     $nome = $_POST['nome'];
     $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
@@ -25,7 +31,7 @@
    <body>
      <h1>Formulario de Cadastro</h1>
 
-     <form  method="POST" action="cadastro.php">
+     <form  method="POST" action="cadastro2.php">
 
           <div>
             <label>Nome:</label>

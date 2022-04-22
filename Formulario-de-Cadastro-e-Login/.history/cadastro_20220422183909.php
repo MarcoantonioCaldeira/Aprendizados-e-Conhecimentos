@@ -3,15 +3,21 @@
   if(isset($_POST['submit']))
   {
 
+    //print_r("Nome: ".$_POST['nome']);
+    //print_r("Sobrenome: ".$_POST['sobrenome']);
+    // print_r("E-mail: ".$_POST['email']);
+    //print_r("Senha: ".$_POST['senha']);
+
     include_once('cadastro2.php');
 
+    $id = $_POST['ID'];
     $nome = $_POST['nome'];
     $sobrenome = $_POST['sobrenome'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,senha) 
-    VALUES('$nome','$sobrenome','$email','$senha')"); 
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(ID,nome,sobrenome,email,senha) 
+    VALUES('$id','$nome','$sobrenome','$email','$senha')"); 
   }
 ?>
 
@@ -25,7 +31,7 @@
    <body>
      <h1>Formulario de Cadastro</h1>
 
-     <form  method="POST" action="cadastro.php">
+     <form  method="POST" action="cadastro2.php">
 
           <div>
             <label>Nome:</label>

@@ -11,7 +11,7 @@
   }else{
     echo"<script language='javascript' type='text/javascript'>
     alert('Usuário cadastrado com sucesso!');window.location.
-    href='login.php'</script>";
+    href='login.html'</script>";
   }
   
 ?>
