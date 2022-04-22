@@ -31,7 +31,7 @@
    <body>
      <h1>Formulario de Cadastro</h1>
 
-     <form  method="POST" action="cadastro2.php">
+     <form action="cadastro2.php" method="POST">
 
           <div>
             <label>Nome:</label>
