@@ -27,23 +27,22 @@
 
      <form  method="POST" action="cadastro.php">
 
-      <div>
-        <input id="input-group" type="text" name="nome" placeholder="Seu nome" required><br>
-      </div>
+          <div>
+            <input id="input-group" type="text" name="nome" placeholder="Nome" required><br>
+          </div>
 
-      <div>
-        <input id="input-group" type="text" name="sobrenome" placeholder="Seu sobrenome" required><br>
-      </div>
+          <div>
+            <input id="input-group" type="text" name="sobrenome" placeholder="Sobrenome" required><br>
+          </div>
           
-      <div>
-        <input id="input-group" type="text" name="email"  placeholder="Ensira o seu email" required><br>
-      </div>
+          <div>
+            <input id="input-group" type="text" name="email"  placeholder="email" required><br>
+          </div>
 
-      <div>
-        <input id="input-group" type="password" name="senha" placeholder="Crie uma senha" required><br>
-      <div>
-        
-      <input type="submit" id="submit" name="submit">
+          <div>
+            <input id="input-group" type="password" name="senha" placeholder="senha" required><br>
+          <div>
+         <input type="submit" id="submit" name="submit">
 
      </form>
   

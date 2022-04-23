@@ -1,0 +1,27 @@
+.titulo_cadastro{
+  position: relative;
+  margin-left: 34%;
+  font-family: arial;
+}
+
+form{
+  position: relative;
+  background-color: #eceff4;
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 350px;
+  height: 450px;
+}
+
+#input-group{
+  position: relative;
+  width: 80%;
+  height:35px;
+  border: 1px solid #e6eaf2;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: arial;
+  margin-left: 2vw;
+}

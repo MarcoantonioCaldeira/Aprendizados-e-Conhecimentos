@@ -1,0 +1,19 @@
+.titulo_cadastro{
+  position: relative;
+  margin-left: 34%;
+  font-family: arial;
+}
+
+form{
+  position: relative;
+  background-color: aqua;
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 350px;
+  height: 450px;
+}
+
+#label{
+  font-family: arial;
+  color: red;
+}

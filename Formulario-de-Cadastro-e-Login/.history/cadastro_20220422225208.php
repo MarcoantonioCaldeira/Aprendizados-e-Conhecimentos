@@ -23,27 +23,30 @@
    <link rel="stylesheet" href="css/cadastro_css.css">
    </head>
    <body>
-     <h1 class="titulo_cadastro">Formulario de Cadastro</h1>
+     <h1>Formulario de Cadastro</h1>
 
      <form  method="POST" action="cadastro.php">
 
-      <div>
-        <input id="input-group" type="text" name="nome" placeholder="Seu nome" required><br>
-      </div>
+          <div>
+            <label>Nome:</label>
+            <input type="text" name="nome" required><br>
+          </div>
 
-      <div>
-        <input id="input-group" type="text" name="sobrenome" placeholder="Seu sobrenome" required><br>
-      </div>
+          <div>
+            <label>Sobrenome:</label>
+            <input type="text" name="sobrenome" required><br>
+          </div>
           
-      <div>
-        <input id="input-group" type="text" name="email"  placeholder="Ensira o seu email" required><br>
-      </div>
+          <div>
+            <label>E-mail:</label>
+            <input type="text" name="email" required><br>
+          </div>
 
-      <div>
-        <input id="input-group" type="password" name="senha" placeholder="Crie uma senha" required><br>
-      <div>
-        
-      <input type="submit" id="submit" name="submit">
+          <div>
+            <label>Criar a Senha:</label>
+            <input type="password" name="senha" required><br>
+          <div>
+         <input type="submit" id="submit" name="submit">
 
      </form>
   

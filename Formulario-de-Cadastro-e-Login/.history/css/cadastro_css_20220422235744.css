@@ -1,0 +1,51 @@
+.titulo_cadastro{
+  position: relative;
+  margin-left: 34%;
+  font-family: arial;
+}
+
+form{
+  position: relative;
+  background-color: #eceff4;
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-top: 5%;
+  width: 350px;
+  height: 450px;
+}
+
+#input-group{
+  position: relative;
+  width: 80%;
+  height:35px;
+  border: 5px solid #e6eaf2;
+  border-radius: 5px;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  font-family: arial;
+  margin-left: 2vw;
+  -webkit-transition: 0.7s;
+  transition: 0.5s;
+  outline: none;
+}
+
+#input-group[type=text]:focus {
+  border: 5px solid #555;
+}
+
+#input-group[type=password]:focus {
+  border: 5px solid #555;
+}
+
+#submit{
+  position: absolute;
+  border: 5px solid rgb(234, 43, 167);
+  border-radius: 5px; 
+  background-color: rgb(234, 43, 167);
+  margin-left: 32%;
+  margin-top: 6%;
+  display: inline-block;
+  width: 40%;
+  height:8%;
+  color: white;
+}
