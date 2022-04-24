@@ -10,18 +10,18 @@ form{
   position: relative;
   background-color: #eceff4;
   border-radius: 7px;
-  margin-left: 36%;
+  margin-left: 35%;
   margin-top: 5%;
   width: 350px;
-  height: 480px;
+  height: 450px;
 }
 
 #input-group{
   position: relative;
   width: 80%;
-  height:50px;
-  border: 1px solid #eceff4;
-  border-radius: 7px;
+  height:35px;
+  border: 4px solid #eceff4;
+  border-radius: 4px;
   margin-top: 10%;
   margin-bottom: 2%;
   font-family: arial;
@@ -31,11 +31,13 @@ form{
   outline: none;
 }
 
-#input-group[type=text]:focus,
-#input-group[type=password]:focus {
-  border: 7px solid rgb(234, 43, 167);
+#input-group[type=text]:focus {
+  border: 4px solid rgb(234, 43, 167);
 }
 
+#input-group[type=password]:focus {
+  border: 4px solid rgb(234, 43, 167);
+}
 
 #submit{
   position: absolute;
@@ -48,13 +50,4 @@ form{
   width: 40%;
   height:8%;
   color: white;
-}
-
-a{
-  color:rgb(144, 130, 130);
-  font-size: 1vw;
-  font-family:arial;
-  position: absolute;
-  margin-left: 26%;
-  margin-top: 21%;
 }

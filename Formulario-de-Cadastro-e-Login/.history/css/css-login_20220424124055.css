@@ -1,26 +1,19 @@
-.titulo_cadastro{
-  position: relative;
-  margin-left: 30%;
-  font-size:3vw;
-  font-family: arial;
-  color:rgb(234, 43, 167);
-}
-
 form{
   position: relative;
   background-color: #eceff4;
   border-radius: 7px;
   margin-left: 36%;
-  margin-top: 5%;
+  margin-top: 7%;
   width: 350px;
-  height: 480px;
+  height: 380px;
 }
 
-#input-group{
+#input-group-login{
   position: relative;
   width: 80%;
   height:50px;
-  border: 1px solid #eceff4;
+  border: 7px solid #eceff4;
+  background-color:red;
   border-radius: 7px;
   margin-top: 10%;
   margin-bottom: 2%;
@@ -31,8 +24,8 @@ form{
   outline: none;
 }
 
-#input-group[type=text]:focus,
-#input-group[type=password]:focus {
+#input-group-login[type=text]:focus,
+#input-group-login[type=password]:focus {
   border: 7px solid rgb(234, 43, 167);
 }
 
@@ -46,7 +39,7 @@ form{
   margin-top: 6%;
   display: inline-block;
   width: 40%;
-  height:8%;
+  height:10%;
   color: white;
 }
 
@@ -55,6 +48,6 @@ a{
   font-size: 1vw;
   font-family:arial;
   position: absolute;
-  margin-left: 26%;
-  margin-top: 21%;
+  margin-left: 20%;
+  margin-top: 23%;
 }

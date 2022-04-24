@@ -8,13 +8,13 @@
   <form method="POST" action="login.php">
 
     <div>
-      <input type="text" name="email" id="input-group-login" placeholder="Coloque seu email" required><br>
+      <input type="text" name="email" id="email" placeholder="coloque seu email"><br>
     </div>
     <div>
-      <input type="password" name="senha" id="input-group-login" placeholder="Coloque o seu e-mail" required><br>
+      <input type="password" name="senha" id="senha" placeholder="Coloque o seu e-mail"><br>
     </div>
 
-    <input type="submit" value="entrar" id="submit" name="entrar"><br>
+    <input type="submit" value="entrar" id="entrar" name="entrar"><br>
     <a href="cadastro.php">Ainda não é cadastrado? Quique aqui</a>
   </form>
 </body>

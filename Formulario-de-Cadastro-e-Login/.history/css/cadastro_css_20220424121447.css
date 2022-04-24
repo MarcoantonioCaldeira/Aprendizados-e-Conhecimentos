@@ -10,7 +10,7 @@ form{
   position: relative;
   background-color: #eceff4;
   border-radius: 7px;
-  margin-left: 36%;
+  margin-left: 35%;
   margin-top: 5%;
   width: 350px;
   height: 480px;
@@ -19,8 +19,8 @@ form{
 #input-group{
   position: relative;
   width: 80%;
-  height:50px;
-  border: 1px solid #eceff4;
+  height:35px;
+  border: 7px solid #eceff4;
   border-radius: 7px;
   margin-top: 10%;
   margin-bottom: 2%;
@@ -51,7 +51,7 @@ form{
 }
 
 a{
-  color:rgb(144, 130, 130);
+  color:red;
   font-size: 1vw;
   font-family:arial;
   position: absolute;

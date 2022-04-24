@@ -8,7 +8,7 @@
   <form method="POST" action="login.php">
 
     <div>
-      <input type="text" name="email" id="input-group-login" placeholder="Coloque seu email" required><br>
+      <input type="text" name="email" id="input-group-login" placeholder="coloque seu email" required><br>
     </div>
     <div>
       <input type="password" name="senha" id="input-group-login" placeholder="Coloque o seu e-mail" required><br>

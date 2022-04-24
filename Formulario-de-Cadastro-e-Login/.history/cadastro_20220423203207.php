@@ -45,7 +45,7 @@
         
       <input type="submit" id="submit" name="submit">
 
-      <a href="login.php">Já tem cadastro? Quique aqui</a>
+      <a class="a-login" href="login.php">Já tem cadastro? Quique aqui</a>
      </form>
   
    </body>
