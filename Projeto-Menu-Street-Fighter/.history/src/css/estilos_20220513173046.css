@@ -43,6 +43,7 @@ main{
 
 .selecao-de-personagens .personagem-grande{
     text-align: center;
+    background-color: red;
     width: 30%;
     height: 70vh;
     position: relative;
@@ -83,7 +84,6 @@ main{
 
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
-    background-color: red;
     flex-wrap: wrap;
     max-width: 600px;
     justify-content: center;

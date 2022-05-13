@@ -83,7 +83,6 @@ main{
 
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
-    background-color: red;
     flex-wrap: wrap;
     max-width: 600px;
     justify-content: center;
