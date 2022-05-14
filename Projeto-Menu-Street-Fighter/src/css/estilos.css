@@ -5,13 +5,13 @@ body{
 
 body::before{
     content: '';
-    background-image: url("../imagens/1cYrMYF.gif");
+    background-image: url("../imagens/.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.2;    
+    opacity: 0.6;
 }
 
 main{
@@ -83,7 +83,6 @@ main{
 
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
-    background-color: red;
     flex-wrap: wrap;
     max-width: 600px;
     justify-content: center;
