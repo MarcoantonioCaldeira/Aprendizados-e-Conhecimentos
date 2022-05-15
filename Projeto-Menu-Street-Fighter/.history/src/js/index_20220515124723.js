@@ -24,10 +24,7 @@ const idSelecionado = personagem.attributes.id.value;
 const imagemJogador1 = document.getElementById('personagem-jogador-1');
 imagemJogador1.src = `./src/imagens/${idSelecionado}.png`;
 
-const nomejogador1 = document.getElementById('nome-jogador-1');
-const nomeSelecionado = personagem.getAttribute('data-name');
-
-nomejogador1.innerHTML = nomeSelecionado; 
+const nomejogador1 = document.getElementById('nome-jogador-1')
   })
 })
 
