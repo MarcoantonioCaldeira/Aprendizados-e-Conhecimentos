@@ -1,5 +1,6 @@
 body{
-    font-family: 'ssf4', Courier, monospace;
+    font-size: 20%;
+    font-family:arial;
     background: var(--cor-secundaria);
 }
 
@@ -24,6 +25,7 @@ main{
 .cabecalho{
     z-index: 1;
     display: flex;    
+    
     justify-content: center;
 }
 
