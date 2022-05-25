@@ -5,6 +5,7 @@ body{
 }
 
 
+
 body::before{
     content: '';
     background-image: url("../imagens/");
@@ -14,6 +15,44 @@ body::before{
     width: 100%;
     height: 100%;
    
+}
+
+#corpo{
+    width: 100%;
+    background-color: #dd1328;
+    height:600px;
+}
+
+.button{ 
+  position:absolute;
+  left: 42%;
+  top: 60%;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:arial;
+  text-align: center;
+  display:inline-block;
+  border-color: #dd1328;
+  background-color:#dd1328;
+  color:white; 
+  border: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/*#conteudo{
+  position: relative;
+  margin-left: 30%;  
+  width:500px;
+  height:500px;
+  background-color: blue; 
+}*/
+
+.logo_grande{
+  position:relative;
+  left:30%;  
+  width:35%;
 }
 
 main{

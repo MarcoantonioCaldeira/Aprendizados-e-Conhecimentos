@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+}
+
+#corpo{
+  width: 100%;
+  background-color:black;
+  height:650px;
+}
+
+.button{ 
+  position:absolute;
+  left: 42%;
+  top: 60%;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:arial;
+  text-align: center;
+  display:inline-block;
+  border-color: #dd1328;
+  background-color:#dd1328;
+  color:white; 
+  border: 4px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.logo_grande{
+  position:relative;
+  left:30%;  
+  width:35%;
+  transition:5s;
+}
+
+.logo_grande:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
