@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+#topo{
+  width: 100%;
+  background-color:rgb(241, 101, 32);
+  height: 80px;
+}
+
+#logo{
+  width: 15%;
+  
+}
+
+.titulo_logo{
+  position: relative;
+  font-family: arial;
+  top: 20%;
+  font-size:30px;
+  color:white;
+  left:-40%;
+}
+
+#corpo{
+  width: 100%;
+  height: 2000px;
+  background-color: white;
+}
+
+.img_receita{
+  position:relative;
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-top: 10%;
+  width:50%;
+}
+
+#outras_receitas{
+  width: 100%;
+  height: 300px;
+  background-color:white;      
+}
+
+.img_receita1{
+  position:relative;  
+  left:10%;
+  top:5%;
+  border-radius:5px;
+  width:20%;
+}
+
+.img_receita2{
+  position:relative;
+  left: 18%;
+  top:5%;
+  border-radius:5px;
+  width:20%;
+}
+
+.img_receita3{
+  position:relative;
+  left: 25%;
+  top:5%;
+  border-radius:5px;
+  width:20%;
+}
+
+#image_receita_1{
+  display:inline-block;
+}
+
+#image_receita_2{
+  display:inline-block;
+}
+
+#image_receita_3{
+  display:inline-block;
+}
+
+#rodape{
+  background-color: rgb(241, 101, 32);
+  width: 100%;
+  height: 200px;
+}
+
+.agradecimentos-rodape{
+  position: relative;
+  top: 45%;
+  color:white;
+  font-family: arial;
+  text-align: center;
+}
+
+.logoGit{
+  position: absolute;
+  width: 5%;
+  left:48%;
+  top: 35px;
+}
+

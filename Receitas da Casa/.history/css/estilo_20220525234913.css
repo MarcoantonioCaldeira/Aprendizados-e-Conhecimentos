@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+#topo{
+    width: 100%;
+    background-color: brown;
+    height: 80px;
+}
+
+
+#corpo{
+    width: 100%;
+    height: 1800px;
+    background-color: blueviolet;
+}
+
+#rodape{
+    background-color: aqua;
+    width: 100%;
+    height: 200px;
+}
+
+.agradecimentos-rodape{
+    position: relative;
+    font-family: arial;
+    text-align: center;
+}
+
+.li-topo{
+    background-color: aqua;
+    height: 100px;
+    width: 20%;
+    margin-left: 38%;
+}
+
+.ul-topo{
+    display: inline;
+}
