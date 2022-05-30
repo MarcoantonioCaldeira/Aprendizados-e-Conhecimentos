@@ -8,8 +8,7 @@ h1{
   list-style: none;
   height: 40px;
   width: 30%;
-  margin-left: 16%;
-  margin-top: -13%;
+  margin-left: 20%;
 }
 
 .ul-topo{
@@ -105,25 +104,18 @@ h1{
   color:rgb(55, 29, 13);
   font-size: 25px;
   left: 10%;
-  margin-top:1%;
 }
 
 .h3_receita_2{
   position:absolute;
   font-family: arial;
   color:rgb(55, 29, 13);
-  left:38%;
-  font-size: 25px;
-  margin-top: 1%;
+  left:18%;
+  
 }
 
 .h3_receita_3{
   position:absolute;
-  font-family: arial;
-  color:rgb(55, 29, 13);
-  left:66%;
-  font-size: 25px;
-  margin-top: 1%;
 }
 
 
