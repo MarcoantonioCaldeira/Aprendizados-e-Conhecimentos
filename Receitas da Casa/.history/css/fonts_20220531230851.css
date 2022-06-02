@@ -13,7 +13,7 @@ h1{
 }
 
 .ul-topo{
-  display: inline;
+  display: inline-block;
   font-family: arial;
   color:rgb(246, 246, 246);
   font-size:18px;

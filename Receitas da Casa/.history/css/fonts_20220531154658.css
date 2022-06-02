@@ -9,7 +9,7 @@ h1{
   height: 40px;
   width: 30%;
   margin-left: 16%;
-  margin-top: -13%;
+  margin-top: -11%;
 }
 
 .ul-topo{
@@ -17,11 +17,6 @@ h1{
   font-family: arial;
   color:rgb(246, 246, 246);
   font-size:18px;
-}
-
-a{
-  text-decoration: none;
-  color:white;
 }
 
 .titulo-receita{
@@ -134,9 +129,9 @@ a{
 .h1_contato{
   position: relative;
   font-size: 40px;
-  left:60px;
-  top:10%;
   font-family: arial;
+  left:35%;
+  margin-top:70%;
   display:inline-block;
   color:rgb(55, 29, 13);
 }
